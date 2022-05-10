@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+
+a:active{
+    text-decoration: none;
+    color:black;
+}
+
+a:hover{
+    text-decoration: none;
+    color:black;
+}
+
+.main-heading{
+    padding: 0.5em;
+    /* border-bottom: ; */
+}
+
+.container{
+    /* border-bottom: 1px solid #ccc; */
+}
+
+.btn-link{
+    text-decoration: none;
+    color:black;
+}
+
+.btn-link:hover{
+    text-decoration: none;
+    color: black;
+}
+.card{
+    border:none
+}
+.card-header{
+    background: none;
+    border:none;
+}
+
+.content{
+    padding:10px;
+}
+.middle-dot{
+    font-size: large;
+    font-weight: bolder;
+    margin: auto 8px;
+    text-align: center;
+
+}
+
+img:hover{
+    filter: brightness(50%);
+}
+.carousel-control-prev{
+    left:-100;
+    filter: invert(100%);
+}
+
+.carousel-control-next{
+    right:-100;
+    filter: invert(100%);
+}
+.credit{
+    display: flex;
+}
+
+.acordin-active{
+color: green;
+
+}
